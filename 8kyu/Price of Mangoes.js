@@ -25,3 +25,14 @@ function mango(quantity, price) {
     }
   }
 }
+
+//! ahhhh that was sooo eazy i had to overcomplcated that. But i am still learning, next time will be better
+
+function mango(quantity, price) {
+  return price * (quantity - Math.floor(quantity / 3));
+}
+
+//
+function mango(quantity, price) {
+  return Math.floor(quantity / 3) * 2 * price + (quantity % 3) * price;
+}
